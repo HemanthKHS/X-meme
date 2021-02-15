@@ -29,7 +29,7 @@ class Memespace extends Component{
       async componentDidMount() {
 
 
-        const response = await fetch("http://127.0.0.1:5003/memes",{
+        const response = await fetch("https://x-meme-khs.herokuapp.com/memes",{
                     method: 'GET'})
         const result = await response.json();  
        
