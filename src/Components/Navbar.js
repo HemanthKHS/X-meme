@@ -6,6 +6,7 @@ function Navbar(){
 
     return(
         <div className="Navbar" >
+        <h1>KHS App</h1>
             <Form/>
         </div>
     )
