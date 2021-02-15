@@ -42,7 +42,7 @@ import React, { Component } from "react";
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(this.state)
             };
-            fetch('http://127.0.0.1:5003/memes', requestOptions)
+            fetch('https://x-meme-khs.herokuapp.com/memes', requestOptions)
             // .then(response => console.log(response))
             // .then(response => response.json())
             // .then(data => this.setState({ postId: data.id }))
